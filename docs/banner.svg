@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="agent-skills: three skills for AI coding agents">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14120f"/><stop offset="1" stop-color="#201a12"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <text x="60" y="95" font-size="22" fill="#f5a524">$ ls skills/</text>
+    <text x="60" y="165" font-size="64" font-weight="700" fill="#f4efe6" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">agent-skills</text>
+    <text x="60" y="205" font-size="22" fill="#a89f91">Small, sharp skills for AI coding agents.</text>
+  </g>
+  <g font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+    <g transform="translate(60,250)">
+      <rect width="340" height="130" rx="14" fill="#1d1913" stroke="#f5a524" stroke-opacity=".5"/>
+      <circle cx="34" cy="36" r="8" fill="#f5a524"/>
+      <text x="56" y="43" font-size="24" font-weight="700" fill="#f4efe6">autonomy</text>
+      <text x="26" y="80" font-size="16" fill="#a89f91">Fewer questions. Decide alone,</text>
+      <text x="26" y="104" font-size="16" fill="#a89f91">ask only at hard stops.</text>
+    </g>
+    <g transform="translate(430,250)">
+      <rect width="340" height="130" rx="14" fill="#1d1913" stroke="#7bd88f" stroke-opacity=".5"/>
+      <circle cx="34" cy="36" r="8" fill="#7bd88f"/>
+      <text x="56" y="43" font-size="24" font-weight="700" fill="#f4efe6">ai-durability</text>
+      <text x="26" y="80" font-size="16" fill="#a89f91">Keep typing and architecture</text>
+      <text x="26" y="104" font-size="16" fill="#a89f91">intact under many agents.</text>
+    </g>
+    <g transform="translate(800,250)">
+      <rect width="340" height="130" rx="14" fill="#1d1913" stroke="#6cb6ff" stroke-opacity=".5"/>
+      <circle cx="34" cy="36" r="8" fill="#6cb6ff"/>
+      <text x="56" y="43" font-size="24" font-weight="700" fill="#f4efe6">goal-shaping</text>
+      <text x="26" y="80" font-size="16" fill="#a89f91">Rough idea in, goal, done</text>
+      <text x="26" y="104" font-size="16" fill="#a89f91">criteria and to-do list out.</text>
+    </g>
+  </g>
+</svg>

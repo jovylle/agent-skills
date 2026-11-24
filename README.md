@@ -1,4 +1,8 @@
+<p align="center"><img src="docs/banner.svg" alt="agent-skills: three skills for AI coding agents" width="100%"></p>
+
 # agent-skills
+
+**Site:** https://jovylle.github.io/agent-skills/
 
 Agent skills I use and maintain. Each folder in `skills/` has a `SKILL.md`.
 
